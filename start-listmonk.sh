@@ -6,4 +6,5 @@ if [ ! -f config/listmonk.toml ]; then
 fi
 
 touch /tmp/app-initialized
+./listmonk --upgrade --config config/listmonk.toml
 ./listmonk --config config/listmonk.toml
